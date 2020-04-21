@@ -8,7 +8,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 
-    <title>Hello, world!</title>
+    <title>Acessar Câmera com javascript</title>
 
   </head>
   <body>
@@ -34,7 +34,7 @@
         $('.NO-CACHE').attr('src',function () { return $(this).attr('src') + "?a=" + Math.random() });
 
     setInterval(function() {
-      $("#verImagem").attr("src", function () { return "http://localhost:3000/upload/cff89b4824c4fe9eaba22f303c4f28e1.jpg?a=" + Math.random() });
+      $("#verImagem").attr("src", function () { return "./upload/cff89b4824c4fe9eaba22f303c4f28e1.jpg?a=" + Math.random() });
     }, 1000);
     
   })
@@ -52,7 +52,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-    <!--<script type="text/javascript" src="js/jquery.canvasCrop.js"></script>-->
     <script type="text/javascript" src="js/index.js"></script>
 
 <script type="text/javascript">
